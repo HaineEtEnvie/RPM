@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace spec
+namespace ConsoleApp5454
 {
     class spec
     {
@@ -15,8 +15,10 @@ namespace spec
             string Name;
             string Reduction;
 
-            name = name;
-            reduction = reduction;
+            Name = this.name;
+            Reduction = this.reduction;
+            
+            Console.WriteLine($"Название: {name} Сокращение: {reduction}");
         }
     }
 }
